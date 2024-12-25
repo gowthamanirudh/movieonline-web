@@ -1,0 +1,55 @@
+.booking-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .screen {
+    margin: 10px auto;
+    padding: 10px;
+    background: #ccc;
+    width: 50%;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .seating-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+  }
+  
+  .seat-row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    background: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .seat:hover {
+    background: #e0e0e0;
+  }
+  
+  .seat.selected {
+    background: #28a745;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .selected-info {
+    margin-top: 20px;
+  }
+  
